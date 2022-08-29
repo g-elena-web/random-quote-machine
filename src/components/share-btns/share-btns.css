@@ -1,0 +1,17 @@
+.share-btns {
+    display: flex;
+    align-items: center;
+}
+
+.share {
+    margin-right: 3rem;
+    transition: transform 1s;
+}
+
+.share * {
+    transition: color 2s;
+}
+
+.share:hover {
+    transform: translateY(-0.5em);
+  }

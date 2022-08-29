@@ -1,0 +1,14 @@
+.random-quote * {
+    color: black;
+    transition: color 2s;
+}
+
+.random-quote .quote {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.random-quote .author {
+    text-align: right;
+}
