@@ -8,7 +8,7 @@ This app uses [quotable open source API](https://github.com/lukePeavey/quotable)
 
 # Design
 
-![app screenshot](src\images\screenshot.jpg)
+![app screenshot](https://github.com/g-elena-web/random-quote-machine/blob/master/src/images/screenshot.jpg?raw=true)
 
 # Demo
 
