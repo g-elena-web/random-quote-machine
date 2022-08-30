@@ -57,7 +57,6 @@ export default class App extends Component {
     render() {
         const { quote, author, colorIndex, error } = this.state;
         const newColor = this.colors[colorIndex];
-        const hoverColor = this.colors[colorIndex + 1];
         
         return (
             <div className="app">
@@ -68,7 +67,7 @@ export default class App extends Component {
                     }
                     <div className="quote-footer">
                         {!error && <ShareBtns quote={quote} author={author} color={newColor} />}
-                        <NewQuoteBtn getNewQuote={this.getQuote} color={newColor} hoverColor={hoverColor} />
+                        <NewQuoteBtn getNewQuote={this.getQuote} color={newColor} />
                     </div>
                 </div>
             </div>

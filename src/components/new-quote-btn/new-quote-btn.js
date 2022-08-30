@@ -15,10 +15,9 @@ export default class NewQuoteBtn extends Component {
     }
 
     render() {
-        const { color, hoverColor, getNewQuote } = this.props;
-        const { hover } = this.state;
+        const { color, getNewQuote } = this.props;
         const btnStyle = {
-            backgroundColor: hover ? hoverColor : color
+            backgroundColor: color
         };
 
         return (
