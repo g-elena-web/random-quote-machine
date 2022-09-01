@@ -15,3 +15,9 @@
 .share:hover {
     transform: translateY(-0.5em);
   }
+
+@media (max-width: 300px) {
+    .share {
+        margin-right: 2rem;
+    }
+}

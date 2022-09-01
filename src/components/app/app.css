@@ -49,3 +49,17 @@ i {
       margin-top: 0;
     }
   }
+
+@media (max-width: 300px) {
+  .app {
+    font-size: 1.5rem;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+
+  .quote-box {
+    padding: 1.5rem;
+  }
+}
